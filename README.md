@@ -2,7 +2,7 @@
 
 [하이버네이트](http://hibernate.org/)는 예전부터 해봐야지 하다가 이번에 한번 직접 사용해봄.
 
-## 실행방법
+## 준비작업
 
 [H2DB](http://www.h2database.com/)를 다운로드 받아서 서버 모드로 기동한다.
 
@@ -20,6 +20,8 @@ H2 웹 콘솔( localhost:8082 )에 접근해서, 아래 쿼리를 실행해서 �
 
 끗 (...)
 
+이후는 그냥 코드 실행해보면 됨.
+
 전부터 하이버네이트를 써봐야지 하다가, 하이버네이트만 사용하는 코드를 발견해서 해봄.
 
 ## reference
@@ -31,7 +33,7 @@ H2 웹 콘솔( localhost:8082 )에 접근해서, 아래 쿼리를 실행해서 �
 
   * [Hibernate 5 :- org.hibernate.MappingException: Unknown entity](https://stackoverflow.com/questions/32405031/hibernate-5-org-hibernate-mappingexception-unknown-entity)
 
-그런데 하이버네이트 기준으로 위 코드를 그대로 진행해보면 ```MappingException``` 예외가
+그런데 하이버네이트 5 기준으로 위 코드를 그대로 진행해보면 ```MappingException``` 예외가
 ```Unknown entity```라는 메시지를 뿜으면서 죽어버린다. 이것땜에 좀 오랫동안 검색했는데,
 위 스택오버플로 답변을 대충 요약하자면,
 
